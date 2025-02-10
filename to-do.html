@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Meow+Script&family=Mukta:wght@200;300;400;500;600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&display=swap" rel="stylesheet">
+    <title>To-app</title>
+    <style>
+
+
+.title{
+    font-family: "Pacifico";
+    font-size: 80px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    margin-top: 20px;
+    
+    
+  
+}
+.insert- input{
+   
+    height: 50px;
+    width: 30vw;
+    font-family: "Pacifico"    ;
+    font-size: 35px;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 5px;
+   
+}
+.insert- button{
+    height: 50px;
+    width: 100px;
+    background: rgb(131,58,180);
+    background: linear-gradient(326deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-left: 30px;
+    border-radius: 25px;
+    font-family: "Pacifico";
+    font-size: 18px;
+}
+.insert-{
+    display: flex;
+    margin-top: 20px;
+}
+ .pend p{
+    font-family: "Pacifico";
+    font-size: 30px;
+    margin-left: 60px;
+    
+}
+.pend{
+
+	
+	
+	
+	background-color: #ffffff70;
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+    font-family: "Pacifico";
+    
+    width: 500px;
+    min-height: 500px;
+    
+}
+
+.pend ul{
+    font-size: 30px;
+}
+
+.done ul{
+    font-size: 30px;
+    font-family: "Pacifico";
+}
+.done{
+   
+
+	
+	
+	
+background-color: #ffffff70;
+-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+
+width: 500px;
+}
+.done p{
+    font-family: "Pacifico";
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.content 
+    button{
+    height: 50px;
+    width: 100px;
+    background: rgb(131,58,180);
+    background: linear-gradient(326deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin-left: 30px;
+    border-radius: 25px;
+    font-family: "Pacifico";
+
+}
+.ig-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+        flex-shrink: unset;
+    
+}
+
+.content .d{
+    background: rgb(34,193,195);
+background: linear-gradient(347deg, rgba(34,193,195,1) 0%, rgba(242,255,205,1) 100%);
+font-size: 18px;
+font-style: italic;
+}
+
+.content .del{
+    background: rgb(195,34,34);
+background: linear-gradient(347deg, rgba(195,34,34,1) 0%, rgba(255,205,205,1) 100%);
+font-size: 18px;
+font-style: italic;
+}
+
+body{
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+.one{
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+}
+.two{
+    width: 200px;
+    border-radius: 10px;
+}
+.three{
+    width: 200px;
+    border-radius: 10px;
+
+}
+img,button {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.head{
+    background-color:#9b9a97;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 1450px) {
+    .content{
+        flex-direction: column;
+    }
+    .pend {
+        width: 100%;
+    }
+    .done{
+        width:100%;
+    }
+    
+    
+  
+}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="head" style="display: flex; align-items: center;">
+
+        <div class="head-1">
+            <div class="title">Do your work!</div>
+        <div class="insert-">
+            <input type="text" placeholder="  Enter the task....." id="task">
+            <button id="add">ADD</button>
+        </div>
+
+        </div>
+         <img src="try.png" alt="" style="height: 200px;margin-left: 30vw;">
+
+
+    </div>
+  
+
+
+
+    <div class="content">
+
+        
+        <div class="pend">
+            <p>Pending</p>
+            <ul id="pending"></ul>
+    
+        </div>
+        
+        <div class="done">
+            <p>Complete</p>
+            <ul id="done"></ul>
+    
+        </div>
+
+
+        <div class="ig-sec">
+
+            <div class="img-sec2" >
+                <img src="3.jpg" alt="" class="three">
+                <img src="2.jpg" alt="" class="two">
+            </div>
+            <div class="img-sec1">
+                <img src="5.jpg" alt="" class="one">
+                
+               
+    
+            </div>
+           
+            
+        </div>
+
+
+        </div>
+       
+    
+    
+</body>
+<script>
+    const add = document.getElementById("add");
+    const taskInput = document.getElementById("task");
+    const tasks = [];
+    const comptask = [];
+    const pending = document.getElementById("pending");
+    const complete = document.getElementById("done");
+
+    add.addEventListener('click', function() {
+        const taskValue = taskInput.value.trim();
+
+        if (taskValue !== "") {
+            tasks.push(taskValue);
+            console.log(tasks);
+            render();
+            taskInput.value = "";
+        } else {
+            alert("Can't add an empty task");
+        }
+    });
+
+    function render() {
+        pending.innerHTML = "";
+
+        tasks.forEach(function(task) {
+            const li = document.createElement("li");
+            const del = document.createElement("button");
+            const done = document.createElement("button");
+
+            done.innerText = "Done";
+            done.className="d";
+            del.className="del";
+            del.textContent = "Delete";
+
+            li.textContent = task;
+            li.appendChild(done);
+            li.appendChild(del);
+            pending.appendChild(li);
+
+            del.addEventListener('click', function() {
+                const index = tasks.indexOf(task);
+                if (index !== -1) {
+                    tasks.splice(index, 1);
+                    render();
+                }
+            });
+
+            done.addEventListener('click', function() {
+                const index = tasks.indexOf(task);
+                if (index !== -1) {
+                    comptask.push(task);
+                    tasks.splice(index, 1);
+                    render();
+                    rendercomp();
+                }
+            });
+        });
+    }
+
+    function rendercomp() {
+        complete.innerHTML = "";
+
+        comptask.forEach(function(completedTask) {
+            const li = document.createElement("li");
+            li.innerText = completedTask;
+            complete.appendChild(li);
+        });
+    }
+</script>
+
+</html>
